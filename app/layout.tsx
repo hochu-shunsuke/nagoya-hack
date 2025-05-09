@@ -3,7 +3,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'NagoyaHack',
   description: 'Created with v0',
   generator: 'v0.dev',
 }
