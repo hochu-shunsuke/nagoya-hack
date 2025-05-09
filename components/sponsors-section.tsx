@@ -39,12 +39,6 @@ export function SponsorsSection({ title, description, sponsors, ctaText, ctaLink
             </div>
           ))}
         </div>
-        {ctaText && ctaLink && (
-          <div className="mx-auto flex max-w-[400px] flex-col items-center justify-center gap-4 text-center">
-            <p className="text-muted-foreground">スポンサーになることに興味がありますか？</p>
-            <Button href={ctaLink}>{ctaText}</Button>
-          </div>
-        )}
       </div>
     </section>
   )

@@ -1,7 +1,7 @@
 import { LayoutWrapper } from "@/components/layout-wrapper"
 import { HeroSectionWrapper } from "@/components/hero-section-wrapper"
 import { UpcomingEventsSection } from "@/components/upcoming-events-section"
-import { EventVotingSection } from "@/components/event-voting-section"
+//import { EventVotingSection } from "@/components/event-voting-section"
 import { PastEventsSection } from "@/components/past-events-section"
 import { AboutSectionWrapper } from "@/components/about-section-wrapper"
 import { SponsorsSectionWrapper } from "@/components/sponsors-section-wrapper"
@@ -14,7 +14,7 @@ export default function Home() {
     <LayoutWrapper>
       <HeroSectionWrapper />
       <UpcomingEventsSection events={upcomingEvents} />
-      <EventVotingSection proposals={eventProposals} />
+
       <PastEventsSection events={pastEvents} />
       <AboutSectionWrapper />
       <SponsorsSectionWrapper />
