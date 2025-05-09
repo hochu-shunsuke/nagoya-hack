@@ -5,12 +5,12 @@ export function CTASectionWrapper() {
   return (
     <PageSection className="bg-primary text-primary-foreground" id="cta">
       <CTASection
-        title="あなたのアイデアを形にしよう"
-        description="NagoyaHackで新しい仲間と出会い、革新的なプロジェクトを作り上げましょう。"
+        title="NagoyaHack"
+        description="NagoyaHackと名古屋のエンジニア学生を盛り上げましょう！"
         primaryCtaText="イベントに参加する"
-        primaryCtaLink="/register"
-        secondaryCtaText="お問い合わせ"
-        secondaryCtaLink="/contact"
+        primaryCtaLink="https://connpass.com/user/Josho/open/"
+        secondaryCtaText="お問い合わせ(Xにて)"
+        secondaryCtaLink="https://x.com/NagoyaHack"
       />
     </PageSection>
   )
